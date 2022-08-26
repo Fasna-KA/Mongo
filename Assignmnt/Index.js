@@ -232,8 +232,6 @@ Query the collection "employee" and list the employees who are having experience
 db.employee.find({overallExp:{$gt:"2"}})
 
 
-
-
 Query the collection "employee" and list the employees who are graduated after 2015 and having experience more than 1 year 
 
  db.employee.find({yearGrad:{$gt:"2015"},overallExp:{$gt:"1"}})
